@@ -1,14 +1,12 @@
+import base64
 
 from flask import Flask, render_template, request
-
-import io
-import base64
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template("upload_image.html")
+    return "hello"
 
 
 @app.route("/upload-image", methods=["GET", "POST"])
