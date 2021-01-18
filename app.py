@@ -1,9 +1,5 @@
-import os
-from pathlib import Path
-import json
 
-from flask import Flask, render_template, request, redirect, url_for
-from werkzeug.utils import secure_filename
+from flask import Flask, render_template, request
 
 import io
 import base64
