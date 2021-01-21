@@ -6,23 +6,49 @@
 
     <div class="row">
 
-    <h1>
+        <h1 class="center" >
 
-        This is a Machine Learning Demo Azure
+            This is a Machine Learning Demo Azure
 
-    </h1>
-</div>
-
-<div class="row">
-    <div class="col-6">
-
-            <img src="data:image/jpeg;base64,{{ img_data }}" class="idx-img" > 
+        </h1>
     </div>
-    <div class="col-6">
+
+
+    <div class="row">
+    
+        <div class="col-6">
+
+           <h2 class="center"> Original Image </h2> 
+       
+        </div>
+    
+        <div class="col-6">
+
+            <h2 class="center"> Processed Image </h2>
+            
+            <h3 class="center"> Brands Detected: {{brands_detected}} </h3>
 
    
+        </div>
+
     </div>
-</div>
+
+    <div class="row">
+    
+        <div class="col-6">
+
+            <img src="data:image/jpeg;base64,{{ img_data }}" class="idx-img" > 
+
+        </div>
+    
+        <div class="col-6">
+
+            <img src="data:image/jpeg;base64,{{ img_data2 }}" class="idx-img" > 
+   
+        </div>
+
+    </div>
+
 </div>
         
 {% endblock %}
