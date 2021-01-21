@@ -36,3 +36,6 @@ It is using Azure Cognitive Services which is a AI API for various services such
 `ctrl C` or `docker-compose down`
 
 Here is a screenshot
+
+
+![alt text](https://github.com/pedrojunqueira/Azure_CV/blob/master/Screen_Shot.png?raw=true)
