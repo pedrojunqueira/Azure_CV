@@ -1,6 +1,6 @@
 # Azure_CV
 
-## application architecture
+## Application Architecture
 
 ![alt text](https://github.com/pedrojunqueira/Azure_CV/blob/master/Azure_Cognitive_ACI.png?raw=true)
 
@@ -73,5 +73,9 @@ docker run -d -p 5000:5000 -e SUBSCRIPTION_KEY=<SUBSCRIPTION_KEY> -e END_POINT=<
 docker ps
 
 # 9 go to your browser and access container
+
+$ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                  
+d5a51f71317d   flask-cv_web   "python app.py run -…"   6 seconds ago   Up 4 seconds   0.0.0.0:5000->5000/tcp 
 
 ```
