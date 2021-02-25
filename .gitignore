@@ -10,4 +10,4 @@ instructions
 .terraform/
 terraform.state
 terraform.tfstate.backup
-_config.tf
+# _config.tf
